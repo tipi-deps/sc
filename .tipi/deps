@@ -1,0 +1,27 @@
+{
+	"x:macos": [ 
+		"**/*.asm",
+		"**/*.S", 
+		"!/src/asm/jump_gas.S",
+		"!/src/asm/make_gas.S"
+	],
+	"x:linux": [ 
+		"**/*.asm",
+		"**/*.S", 
+		"!/src/asm/jump_gas.S",
+		"!/src/asm/make_gas.S"
+	],
+	"x:windows": [ 
+		"**/*.asm",
+		"**/*.S", 
+		"!/src/asm/jump_gas.S",
+		"!/src/asm/make_gas.S",
+		"/tests/**"
+	],
+	"x:vs-16-2019-win64-cxx17": [ 
+		"**/*.s", 
+		"**/*i386*.asm", 
+		"**/*x86_64*.asm",
+		"/tests/**"
+	]
+}
